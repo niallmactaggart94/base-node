@@ -1,0 +1,23 @@
+{
+  "name": "baseline-nodejs",
+  "version": "1.0.0",
+  "description": "Baseline project for node",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node app/index.js",
+    "lint": "./node_modules/.bin/eslint app/**/*.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.15.2",
+    "jest": "^26.6.3",
+    "lodash": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "node-mocks-http": "^1.8.1"
+  },
+  "author": "Niall MacTaggart",
+  "license": "ISC"
+}
